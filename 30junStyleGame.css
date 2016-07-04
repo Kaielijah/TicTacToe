@@ -1,0 +1,104 @@
+@charset "UTF-8";
+
+body {
+  background-color: white;
+  margin: 0;
+  top:0;
+
+}
+
+.wrapper {
+  height: 600px;
+  width: 600px;
+  margin: 0 auto;
+  border: 1px solid;
+  margin-top: 100px;
+}
+
+header{
+  width: 100%;
+  height: 100px;
+  background-color: white;
+  text-align: center;
+}
+button{
+  width: 200px;
+  border-radius: 6px;
+  background-color: white;
+  position: relative;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+ }
+
+h2 {
+  text-align: center;
+  }
+h1 {  margin-top: 55px;
+}
+#message {margin-top:10px;}
+p {
+
+}
+.container {
+position: relative;
+text-align: center;
+width:auto;
+margin-top: 20px;
+}
+/* bes color & effects */
+
+.box{
+  text-align: center;
+  margin-top: 0;
+  top:0;
+  height: 150px;
+  width: 150px;
+  }
+
+table {margin:0 auto; font-size: 40px;}
+td{
+  border-right: 1px solid;
+  border-bottom: 1px solid;
+}
+#b2 {
+  border-bottom: 1px solid;
+
+}
+#b3 {
+  border-bottom: 1px solid;
+  border-right: 0px solid;
+
+
+}
+#b4 {
+  border-right: 1px solid;
+  border-bottom: 1px solid;
+
+}
+#b5 {
+  border-bottom: 1px solid;
+
+}
+#b6 {
+  border-bottom: 1px solid;
+  border-right: 0px solid;
+
+}
+#b7 {
+  border-right: 1px solid;
+  border-bottom: 0px solid;
+
+  margin-left: -4px;
+}
+#b8 {
+  border-bottom: 0px solid;
+
+}
+#b9 {
+  border-bottom: 0px solid;
+
+  border-right: 0px solid;
+
+}
