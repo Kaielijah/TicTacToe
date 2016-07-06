@@ -4,15 +4,15 @@ body {
   background-color: white;
   margin: 0;
   top:0;
-
+  right: 0;
+  left:0;
 }
 
 .wrapper {
-  height: 600px;
-  width: 600px;
+  height: 700px;
+  width: 700px;
   margin: 0 auto;
   border: 1px solid;
-  margin-top: 100px;
 }
 
 header{
@@ -44,7 +44,7 @@ p {
 .container {
 position: relative;
 text-align: center;
-width:auto;
+width: auto;
 margin-top: 20px;
 }
 /* bes color & effects */
@@ -101,4 +101,49 @@ td{
 
   border-right: 0px solid;
 
+}
+
+@media only screen and (min-width: 961px)
+{
+.wrapper {  margin-top:2em;
+}
+
+}
+@media only screen and  (max-width: 960px){
+.wrapper {
+  height: 40em;
+  width: 40em;
+  margin-top:1em;
+}
+}
+@media only screen and  (max-width: 760px){
+.wrapper{
+  height: 20em;
+  width: 20em;
+  margin-top: 0;
+}
+.container{
+  margin-top: -0.8em;
+
+}
+.box {
+  height: 1.8em;
+  width: 1.8em;
+}
+
+}
+
+@media only screen and  (max-width: 480px){
+.wrapper{
+  height: 20em;
+  width: 20em;
+  margin-top: 0;
+}
+.container{
+  margin-top: -0.8em;
+
+}
+.box {
+  height: 1.8em;
+  width: 1.8em;
 }
