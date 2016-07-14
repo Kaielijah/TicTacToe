@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 body {
-  background-color: white;
+  background-color: rgb(35, 181, 211);;
   margin: 0;
   top:0;
   right: 0;
@@ -12,7 +12,6 @@ body {
   height: 700px;
   width: 700px;
   margin: 0 auto;
-  border: 1px solid;
 }
 
 header{
@@ -20,6 +19,8 @@ header{
   height: 100px;
   background-color: white;
   text-align: center;
+  background-color: rgb(35, 181, 211);;
+
 }
 button{
   width: 200px;
@@ -46,64 +47,36 @@ position: relative;
 text-align: center;
 width: auto;
 margin-top: 20px;
+margin:0 auto; font-size: 50px;
+height: 500px;
+width: 500px;
+background-color: white;
+box-shadow: 10px 10px 5px #888888;
 }
 /* bes color & effects */
 
 .box{
   text-align: center;
-  margin-top: 0;
+  display: inline-block;
+  margin: 0 auto;
+  margin-top: 5px;
   top:0;
   height: 150px;
   width: 150px;
+  overflow: hidden;
+  line-height: 150px;
+  background-color: rgb(255, 224, 102);;
   }
 
-table {margin:0 auto; font-size: 40px;}
-td{
-  border-right: 1px solid;
-  border-bottom: 1px solid;
+.winCombo{
+color: #A44464;
+animation: blinker 1s linear infinite;
 }
-#b2 {
-  border-bottom: 1px solid;
-
-}
-#b3 {
-  border-bottom: 1px solid;
-  border-right: 0px solid;
-
-
-}
-#b4 {
-  border-right: 1px solid;
-  border-bottom: 1px solid;
-
-}
-#b5 {
-  border-bottom: 1px solid;
-
-}
-#b6 {
-  border-bottom: 1px solid;
-  border-right: 0px solid;
-
-}
-#b7 {
-  border-right: 1px solid;
-  border-bottom: 0px solid;
-
-  margin-left: -4px;
-}
-#b8 {
-  border-bottom: 0px solid;
-
-}
-#b9 {
-  border-bottom: 0px solid;
-
-  border-right: 0px solid;
-
+@keyframes blinker {
+  50% { opacity: 0.0; }
 }
 
-@media only screen and (min-width: 961px)
+@media only screen and (min-width: 965px)
 {
 .wrapper {  margin-top:2em;
 }
@@ -132,7 +105,6 @@ td{
 }
 
 }
-
 @media only screen and  (max-width: 480px){
 .wrapper{
   height: 20em;
